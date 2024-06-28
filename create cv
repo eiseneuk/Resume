@@ -1,0 +1,142 @@
+\documentclass[letterpaper,10pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Font options
+\usepackage[sfdefault]{roboto}  % Sans-serif font
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Section formatting
+\titleformat{\section}{\Large\bfseries\scshape\raggedright}{}{0em}{}[\titlerule]
+
+% Ensure PDF is machine readable
+\pdfgentounicode=1
+
+% Custom commands
+\newcommand{\resumeItem}[1]{\item\small{#1}}
+\newcommand{\resumeSubheading}[4]{
+\vspace{-1pt}\item
+  \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+    \textbf{#1} & #2 \\
+    \textit{#3} & \textit{#4} \\
+  \end{tabular*}\vspace{-7pt}
+}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\newcommand{\resumeSubHeadingList}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+\begin{center}
+  \textbf{\Huge Debopriyo Ganguly} \\
+  \small 9073379210 $|$ \href{mailto:debopriyoganguly231@email.com}{debopriyoganguly231@email.com} $|$ 
+  \href{https://linkedin.com/in/burhan-webb}{linkedin.com/in/debopriyo-ganguly} $|$
+  \href{https://github.com/zwayth}{github.com/eiseneuk}
+\end{center}
+
+\section*{Objective}
+A motivated and diligent student in Computer Science and Engineering seeking an
+entry-level position in Software Engineering. Eager to apply academic knowledge
+and internship experience to contribute effectively to your team.
+
+\section{Education}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Hooghly Engineering and technology College}{Hooghly, WestBengal}
+      {Bachelor of Technology in Computer Science and Engineering, CGPA: 7.98* }{2021 -- 2025}
+  \resumeSubheading
+      {Methodist School}{Hooghly, WestBengal}
+      {ISC(class 12) Percentage: 81.75\% }{2021}
+  \resumeSubheading
+      {Methodist School}{Hooghly, WestBengal}
+      {ICSE(class 10) Percentage: 84.5\% }{2019}
+\resumeSubHeadingListEnd
+
+\section{Projects}
+\resumeSubHeadingList
+  \resumeSubheading
+      {Task Management System}{Java (Spring,Spring Boot), CSS, HTML, MySQL}
+      {A system based application to manage tasks and to monitor tasks}{}
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ Facilitating employee and admin login to dashboard with known credentials for creating/managing tasks and to monitor the users respectively}          
+          \resumeItem{\textbullet\ Achieved in-depth understanding of UI/UX design and developement and also backend developement}
+      \resumeSubHeadingListEnd
+  \resumeSubheading
+      {Weather Prediction using Decision Tree}{Python,Data Science} 
+      {Implemented a weather prediction system using decision tree algorithms to forecast weather conditions.}{}  
+      \resumeSubHeadingList
+          \resumeItem{\textbullet\ To develop a predictive model to forecast future weather conditions accurately based on historical meteorological data, geographical features, and real-time observations.}
+          \resumeSubHeadingListEnd
+\resumeSubHeadingListEnd
+\section{Technical Skills}
+\resumeSubHeadingList
+  \resumeItem{\textbf{Programming Languages}: Python, Java, C, C++, Javascript, HTML, CSS, SQL, MATLAB}
+  \resumeItem{\textbf{Frameworks}: Spring, Spring Boot}
+  \resumeItem{\textbf{Cloud/Databases}: MongoDB, Relational Database(MySQL,Oracle)}
+\resumeSubHeadingListEnd
+
+\section{Languages}
+\resumeSubHeadingList
+  \resumeSubheading
+      {English}{}
+      {Proficient}{}
+      
+  \resumeSubheading
+      {Hindi}{}
+      {Fluent}{}
+
+    \resumeSubheading
+      {Bengali}{}
+      {Native}{}
+     
+\resumeSubHeadingListEnd
+
+
+\section{Activities and Interests}
+\resumeSubHeadingList
+    \resumeSubheading
+      {Swimming}{}
+      {}{}
+      \resumeSubheading
+      {Sketching}{}
+      {}{}
+      \resumeSubheading
+      {Reading Books}{}
+      {}{}
+      \resumeSubheading
+      {Fitness}{}
+      {}{}
+      \resumeSubheading
+      {Football}{}
+      {}{}
+    
+\resumeSubHeadingListEnd
+
+\end{document}
